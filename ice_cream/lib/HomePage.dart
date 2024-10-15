@@ -111,12 +111,11 @@ class _HomepageState extends State<Homepage> {
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          // Ice cream placeholder image (replace with actual images)
                           Container(
                             height: 80,
                             width: 80,
                             child: Image.asset(
-                              iceCreams[index]['image']!, // Load image from assets
+                              iceCreams[index]['image']!,
                               fit: BoxFit.cover,
                             ),
                           ),
